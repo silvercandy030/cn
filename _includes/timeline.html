@@ -1,0 +1,47 @@
+
+<!-- Timeline Start -->
+
+<section id="{{ page.section-type }}" class="container content-section text-center" style="margin-bottom: 300px;">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      {{ page.content | markdownify }}
+
+      <ul class="timeline">
+
+        {% for event in site.events %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% capture class %}
+          {% if loopindex == 0 %}
+            timeline-inverted
+          {% endif %}
+          {% endcapture %}
+
+          <li class="{{ class }}">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 style="margin-bottom: 0px;">{{event.title}}</h4>
+                <h4><a href="" target="_blank">{{ event.date }}</a></h4>
+              </div>
+              <div class="timeline-body">
+                <strong>{{ event.description | markdownify }}</strong>
+                <ul style="float:left;text-align:left;padding-left: 0px;">
+                  <li><strong><a href="" target="_blank">{{event.level}}</a></strong></li>
+                  {% if event.honor != 0 %}
+                    <li><strong><a href="" target="_blank">{{event.honor}}</a></strong></li>
+                  {% endif %}            
+                </ul>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline End -->
