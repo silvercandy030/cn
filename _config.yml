@@ -28,9 +28,9 @@ force-https: True
 # HTML Head #
 #############
 
-lang: "en"
-author: "Tang Xiuwen"
-title: "{ Tang Xiuwen  }"
+lang: "zh-cn"
+author: "唐秀雯"
+title: "{ 唐秀雯 }"
 description: ""
 keywords: ""
 favicon: "/img/favicon.ico"
@@ -132,7 +132,7 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/dynamic.jpg"
-    title: "Dynamic release of campus information based on real-time positioning"
+    title: "校园动态信息发布——基于实时定位"
     date: "April 2018"
     description: "An information publishing platform, the information in the platform in the form of landmarks on the map of the publishing location, to help users quickly locate hot events, hot areas."
     level: "University-level general subjects of extracurricular research"
