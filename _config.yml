@@ -55,8 +55,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Thanks for reading."
-  - text: "Hava a nice day."
+  - text: "感谢您阅读."
+  - text: "愿您有美好的一天."
 
 me-img: "/img/jetpacktocat.png"
 
@@ -133,7 +133,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/dynamic.jpg"
     title: "校园动态信息发布——基于实时定位"
-    date: "April 2018"
+    date: "4月 2018"
     description: "An information publishing platform, the information in the platform in the form of landmarks on the map of the publishing location, to help users quickly locate hot events, hot areas."
     level: "University-level general subjects of extracurricular research"
     honor: "Acquired the software copyright"
