@@ -207,10 +207,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Awards: 'latest-post'
-  Projects: 'timeline'
-  Contact: 'contact'
+  关于我: 'about'
+  荣誉: 'latest-post'
+  科研项目: 'timeline'
+  联系我: 'contact'
 
 # Exclusion list from the generated _site
 
